@@ -1,0 +1,24 @@
+Laravel Project Creation Steps:
+
+(1) Install XAMPP, Node.js, Composer, and Notepad++ on your PC.
+
+(2) Open Command Prompt on your PC.
+
+(3) Use the following commands in Command Prompt to navigate directories:
+=> cd.. - Go to the previous folder.
+=> cd folder - Go to the next folder.
+
+(4) Navigate to your /xampp/htdocs folder in Command Prompt and run this command to create your project:
+=> composer create-project laravel/laravel --prefer-dist projectname
+
+(5) Edit the .env file in your project folder using Notepad++. On line 14, configure your database connection by renaming 'DB_DATABASE=laravel' to 'DB_DATABASE=yourprojectname'.
+
+(6) In Command Prompt, navigate to your project folder and execute the following commands in sequence:
+=> composer require laravel/ui
+=> php artisan ui bootstrap
+=> php artisan ui bootstrap --auth (Type 'y' to authorize Bootstrap UI when prompted)
+=> npm install
+=> npm run build
+=> php artisan migrate
+
+Thank you for using my notes! I hope they are helpful. Your project is now fully created. Let's explore the project folder together in the next file.

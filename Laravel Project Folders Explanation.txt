@@ -1,0 +1,20 @@
+So, there are so many files and folders in your Laravel project, so we'll understand some basic files and folders for beginners.
+
+(1) We ran some commands in the [Laravel Project Create Steps.txt] file, so we have a small Laravel project in your workspace. Now, we want to open the project in the browser.
+
+(2) First, open your XAMPP and start two things: Apache & MySQL because we need to start these two to open the project in the browser. After starting these two, now type this URL in your browser:
+=> http://localhost/projectname/public/
+
+(3) So, you can see the Laravel screen in your browser. In the top right corner, there are two links: [Login, Register]. Since you don't have an account, you can register to create one.
+
+(4) If you register, you'll see that you're on your home page. If you log out and then type the home URL in your browser, the home page won't open; it will redirect you to the login page.
+
+(5) So, there is your Laravel project. Now, let's find files in the project. I'll tell you about the main and basic things.
+
+(6) In your project, the main folders are [app, public, resources & routes]. Let me explain what you have in these folders:
+=> In your [Routes] folder, you have four files, but we'll talk about one. The file is web.php. This file helps you create URLs and display pages.
+=> In your [Resources] folder, you have four other folders, but let's focus on one: the 'view' folder. In the 'View' folder, you can create blade files like [index.blade.php]. This file contains your HTML code.
+=> In your [Public] folder, you can put your other files like [js, css, images & etc.].
+=> In your [App] folder, you have five folders, but we'll talk about two: first, the 'Model', and then 'Http/Controllers'. But we'll discuss these folders later.
+
+Thanks for using my notes. I think they'll be helpful for you. Now, you can explore your basic folders & files. We'll meet in the next file and learn about programming & databases.
